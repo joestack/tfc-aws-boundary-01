@@ -8,3 +8,7 @@ output "s3command" {
 
   value = module.boundary.s3command
 }
+
+output "bastion_ip" {
+  value = module.boundary.bastion_ip
+}
