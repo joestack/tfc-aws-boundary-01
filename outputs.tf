@@ -12,3 +12,7 @@ output "dns_name" {
 output "bastion_ip" {
   value = module.boundary.bastion_ip
 }
+
+output "controller_ips" {
+  value = module.boundary.controller_ips
+}
