@@ -3,11 +3,11 @@ output "dns_name" {
   value       = module.boundary.dns_name
 }
 
-output "s3command" {
-  description = "The S3 cp command used to display the contents of the cloud-init-output.log"
+# output "s3command" {
+#   description = "The S3 cp command used to display the contents of the cloud-init-output.log"
 
-  value = module.boundary.s3command
-}
+#   value = module.boundary.s3command
+# }
 
 output "bastion_ip" {
   value = module.boundary.bastion_ip
